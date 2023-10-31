@@ -1,0 +1,191 @@
+@media (min-width: 320px) and (max-width: 675.99px) { 
+    .my_btn {
+        font-size: 16px;  
+    }
+    #History_part .title h3 {
+        color: #fff;
+   .title h3 {
+        font-size: 20px;
+        margin: -40px -64px 0;
+                
+    }
+  .title h2 {
+        
+            font-size: 19px;
+            margin: -9px -64px 0;
+            
+        }
+       
+    }
+    #History_part .text p {
+        font-size: 14px;
+        color: #ffffff;
+        line-height: 22px;
+        margin-bottom: 0px;
+        text-align: justify;
+    }
+    /* =============================================== */
+    .navbar {
+        padding: 10px 0;
+        top: 0;
+        background: rgb(228, 155, 155);
+    }
+    .navbar .navbar-nav .nav-item .nav-link img {
+
+        display: none;
+    }
+    .navbar .navbar-nav {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        padding: 32px 0;
+    }
+    .navbar .custom_btn {
+        font-size: 16px;
+        padding: 12px 18px;
+        border-radius: 12px;
+        width: 100%;
+        
+    }
+    .navbar-toggler{
+        border: 0;
+    }
+    .navbar-toggler i{
+        color: brown;
+    }
+    .navbar-toggler:focus{
+       outline: 0;
+       box-shadow: none;
+    }
+    /* ========================================= */
+    #benner_part{
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+    #benner_part .banner_img img {
+        display: none;
+    }
+    #benner_part .text {
+        margin-top: 110px;
+    }
+    #benner_part .text h2 {
+        font-size: 50px;
+    }
+    #benner_part .text h1 {
+        font-size: 50px;
+        margin-top: -21px;
+    }
+    #benner_part .text p {
+        font-size: 14px;
+        margin: 20px 0 38px 0;
+    }
+    /* =================================== */
+
+    #History_part{
+       background: #00000093;
+       padding: 0;
+    }
+    #History_part .container{
+       background: url(../images/History.png) no-repeat center / cover;
+       padding-top:60px;
+       padding-bottom: 60px;
+       position: relative;
+       z-index: 1;
+    }
+    #History_part .container::after{
+        content: " ";
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.587);
+        z-index: -1;
+    }
+    
+    #History_part .images {
+        display: none;
+    }
+
+    #History_part .shalider-sheddo {
+      display: block;
+
+    }
+    #History_part .title {
+      margin-top: 30px;
+      margin-left: 36px;
+
+       
+    }
+    #History_part .title  img {
+        left: 15px;
+        top: -8px;
+        width: 30%;
+       
+    }
+    
+    /* ===================================== */
+    #gift_part .images {
+        display: none;
+    }
+    #gift_part .text {
+        padding: 0;
+    }
+    #gift_part {
+        padding: 30px 0 30px;
+    }
+    .text p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 10px;
+        text-align: justify;
+    }
+    .title h2 {
+        margin-bottom: 0;
+    }
+    .title{
+        margin-bottom: 30px;
+    }
+    /* ================================= */
+    #ticket_part{
+        padding-bottom: 30px;
+    }
+    #ticket_part .images img{
+        display: none;
+    }
+    .title h2 {
+        font-size: 30px;
+
+    }
+    #ticket_part .title_text {
+        text-align: justify;
+      
+      
+    }
+    #ticket_part .title {
+        margin-top: -85px;
+    }
+    p {
+        margin: 0;
+        
+    }
+    #ticket_part .button {
+        margin-top: 20px;
+    }
+    /* ==================================== */
+        #offer_part {
+            padding: 30px 0 67px 0;
+           
+        }
+        /* ============================ */
+       
+        #capture_part .title_text p {
+            text-align: justify;
+           
+        }
+        #capture_part .button {
+            margin-top: 20px;
+        }
+
+    }
+ 
